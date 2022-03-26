@@ -180,6 +180,10 @@ main {
 
 /* previous books section */
 
+#previous-books {
+    margin: auto;
+}
+
 #previous-books h2 {
     padding-top: 10px;
 }
@@ -189,19 +193,19 @@ main {
 }
 
 #prev-book-left {
-    margin: auto auto;
+    margin: auto;
     padding: 10px;
     text-align: center;
 }
 
 #prev-book-right {
-    margin: auto auto;
+    margin: auto;
     padding: 10px;
     text-align: center;
 }
 
 #prev-book-center {
-    margin: auto auto;
+    margin: auto;
     padding: 10px;
     text-align: center;
 }
