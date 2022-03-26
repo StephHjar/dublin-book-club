@@ -181,6 +181,7 @@ main {
 /* previous books section */
 
 #previous-books {
+    display: block;
     margin: auto;
 }
 
@@ -193,18 +194,21 @@ main {
 }
 
 #prev-book-left {
+    display: block;
     margin: auto;
     padding: 10px;
     text-align: center;
 }
 
 #prev-book-right {
+    display: block;
     margin: auto;
     padding: 10px;
     text-align: center;
 }
 
 #prev-book-center {
+    display: block;
     margin: auto;
     padding: 10px;
     text-align: center;
