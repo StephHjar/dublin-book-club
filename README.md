@@ -161,6 +161,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   Footer with social media links used code from the Love Running walkthrough
 
+-   [Goodreads] (https://www.goodreads.com/) for book covers and synopses
+
 ### Code
 
 ### Content
