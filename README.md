@@ -159,6 +159,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
+-   Footer with social media links used code from the Love Running walkthrough
+
 ### Code
 
 ### Content
