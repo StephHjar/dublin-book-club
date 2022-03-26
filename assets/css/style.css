@@ -160,3 +160,17 @@ main {
 #next-meeting li {
     list-style-type: none;
 }
+
+#next-meeting p {
+    font-style: italic;
+}
+
+#next-meeting a {
+    color: #E29578;
+}
+
+#next-meeting a:hover {
+    text-decoration: none;
+}
+
+/* Footer - social media links */
