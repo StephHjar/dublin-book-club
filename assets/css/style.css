@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Logo and navigation bar */
+header {
+    background-color: #000;
+    height: 80px;
+}
+
+h1 {
+    color: #83C5BE;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+#logo {
+    float: left;
+    margin: 0.5rem;
+}
+
+#logo a {
+    text-decoration: none;
+}
+
+/* navigation bar */
+
+#menu {
+    display: inline;
+    float: left;
+}
+
+#menu ul {
+    float: left;
+}
+
+#menu li {
+    display: inline;
+    list-style-type: none;
+    margin: 0.5rem;
+}
+
+#menu a {
+    color: #EDF6F9;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    color: #E29578;
+}
+
+.active {
+    border-bottom: 1px solid #E29578;
+}

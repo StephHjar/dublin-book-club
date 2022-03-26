@@ -65,6 +65,10 @@ This is the home page for the Dublin Book Club, a fiction book club for adults o
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+1. [EightShapes Contrast Grid:](https://contrast-grid.eightshapes.com/)
+    - EightShapes was used to ensure color contrast for accessibility.
+1. [Coolors.co:](https://coolors.co/)
+    - Coolors was used to generate a color palette.
 
 ## Testing
 
