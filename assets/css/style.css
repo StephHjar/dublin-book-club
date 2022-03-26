@@ -36,7 +36,7 @@ header {
 h1 {
     color: #83C5BE;
     font-family: 'Dela Gothic One', cursive;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -58,6 +58,7 @@ h1 {
 }
 
 #menu ul {
+    font-size: 0.9rem;
     float: left;
 }
 
@@ -128,7 +129,7 @@ main {
     text-decoration: none;
 }
 
-/* next meeting section */
+/* next book & meeting section */
 
 #up-next img {
     display: block;
