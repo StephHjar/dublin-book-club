@@ -1,5 +1,5 @@
 /* google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@400;500&display=swap');
 
 /* general style rules */
 
@@ -128,10 +128,35 @@ main {
     text-decoration: none;
 }
 
-/* next book section */
+/* next meeting section */
 
 #up-next img {
     display: block;
     height: 320px;
     margin: auto;
+}
+
+#next-book {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#next-book p {
+    font-style: italic;
+}
+
+#next-meeting {
+    background-color: #000;
+    color: #83C5BE;
+    display: block;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#next-meeting li {
+    list-style-type: none;
 }
