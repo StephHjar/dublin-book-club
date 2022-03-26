@@ -69,6 +69,8 @@ This is the home page for the Dublin Book Club, a fiction book club for adults o
     - EightShapes was used to ensure color contrast for accessibility.
 1. [Coolors.co:](https://coolors.co/)
     - Coolors was used to generate a color palette.
+1. [Unsplash] (https://unsplash.com/)
+    - Unsplash was used to choose a hero image.
 
 ## Testing
 
