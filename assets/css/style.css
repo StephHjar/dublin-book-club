@@ -178,6 +178,34 @@ main {
     text-decoration: none;
 }
 
+/* previous books section */
+
+#previous-books h2 {
+    padding-top: 10px;
+}
+
+#previous-books img {
+    height: 320px;
+}
+
+#prev-book-left {
+    margin: auto auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#prev-book-right {
+    margin: auto auto;
+    padding: 10px;
+    text-align: center;
+}
+
+#prev-book-center {
+    margin: auto auto;
+    padding: 10px;
+    text-align: center;
+}
+
 /* footer - social media links */
 
 .social-networks {
