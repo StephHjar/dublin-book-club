@@ -11,7 +11,7 @@
     <title>Dublin Book Club - Register</title>
 </head>
 <body>
-    <!-- Logo and navigation bar -->
+    <!-- logo and navigation bar -->
     <header>
         <a href="index.html">
             <h1 id="logo">Dublin Book Club</h1>
@@ -34,11 +34,27 @@
         </nav>
     </header>
     <main>
-        <section>
-            Description of form
+        <!-- form heading and description -->
+        <section id="form-heading">
+            <h2>Register</h2>
+            <p>Sign up here, and you will receive an email confirming the date, time, and location for our next meeting. Please read the
+                book selection ahead of time, and come ready to have fun!</p>
+            </p>
         </section>
-        <section>
-            Form
+        <!-- form -->
+        <section id="form-section">
+            <form id="register-form" action="https://formdump.codeinstitute.net/" method="post">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="first_name" class="text-input" required>
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="last_name" class="text-input" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" class="text-input" required>
+
+                <input type="submit" class="submit-button" value="Submit!">
+            </form>
         </section>
     </main>
     <!-- footer with social media links -->

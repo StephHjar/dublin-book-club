@@ -165,6 +165,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   [Goodreads] (https://www.goodreads.com/) for book covers and synopses
 
+-   [TinyPNG] (https://tinypng.com/) to compress image sizes
+
 ### Code
 
 ### Content

@@ -229,6 +229,12 @@ main {
     border: solid 1px #000;
 }
 
+/* registration page + form */
+
+#form-heading p {
+    margin: 0.5rem;
+}
+
 /* footer - social media links */
 
 .social-networks {
