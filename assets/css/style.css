@@ -235,6 +235,28 @@ main {
     margin: 0.5rem;
 }
 
+#register-form {
+    max-width: 320px;
+    margin: 0.5rem;
+}
+
+#register-form label {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-input {
+    border: solid 1px #000;
+    margin-bottom: 0.5rem;
+    padding: 0.25rem;
+    width: 100%;
+}
+
+.text-input:hover {
+    border-color: #E29578;
+}
+
 /* footer - social media links */
 
 .social-networks {
