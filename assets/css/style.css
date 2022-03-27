@@ -262,7 +262,6 @@ main {
     color: #000;
 }
 
-
 .text-input {
     border: solid 1px #000;
     margin: 0.25rem auto 0.5rem;
@@ -293,4 +292,15 @@ main {
 
 .social-networks i:hover {
     color: #E29578;
+}
+
+/* for medium screens 635px and larger */
+
+@media screen and (min-width: 650px) {
+    #hero-image {
+        background: url(../images/hero-image.jpg) no-repeat bottom center;
+        background-size: 860px;
+        height: 320px;
+        width: 100%;
+    }
 }
