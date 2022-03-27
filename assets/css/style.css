@@ -213,16 +213,20 @@ main {
 
 /* gallery and testimonials */
 
-#gallery {
-    border: solid 1px #000;
+.gallery {
     display: block;
     margin: 1rem auto;
+    padding: 0;
     text-align: center;
     width: 75%;
 }
 
-#gallery img {
+.gallery img {
     width: 100%;
+}
+
+.gallery p {
+    border: solid 1px #000;
 }
 
 /* footer - social media links */
