@@ -111,6 +111,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     1. 'font-weight: bold' was not working in the "next meeting section". Determined this is because the font chosen from Google Fonts did not have a bold weight. Imported a bold version of the font, this solved the bug.
 
+    2. Could not vertically align the "Submit" text in the submit button. The padding was equal on all sides, but it looks like the font itself has space built in underneath the letters. Adjusted the padding to compensate for this. The downside here is that the text will not appear centred if the custom font is not available or does not load.
+
 ## Deployment
 
 ### GitHub Pages
