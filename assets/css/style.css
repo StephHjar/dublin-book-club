@@ -243,12 +243,23 @@ main {
 #register-form label {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
+    text-decoration: solid underline 1.5px #E29578;
+    text-transform: uppercase;
+}
+
+.submit-button {
+    background-color: #000;
+    color: #83C5BE;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 100%;
+    padding: 0.5rem;
+    text-align: center;
     text-transform: uppercase;
 }
 
 .text-input {
     border: solid 1px #000;
-    margin-bottom: 0.5rem;
+    margin: 0.25rem auto 0.5rem;
     padding: 0.25rem;
     width: 100%;
 }
