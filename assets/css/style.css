@@ -351,6 +351,22 @@ main {
         margin-top: 48px;
     }
 
+    #up-next {
+        padding: 0 16.5%;
+        width:fit-content;
+    }
+
+    #next-book, #next-meeting {
+        display: inline-block;
+        margin: 0 auto;
+        width: 33%;
+    }
+
+    #next-meeting {
+        margin-top: 33%;
+        vertical-align: top;
+    }
+
     #gallery-wrapper {
         display: grid;
         overflow: hidden;
