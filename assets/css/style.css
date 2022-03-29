@@ -315,7 +315,6 @@ main {
 
     #header {
         height: fit-content;
-        background-color: #000;
         margin: auto;
     }
 
@@ -325,22 +324,17 @@ main {
     }
 
     #menu {
-        background-color: #000;
-        display: inline;
+        background-color: none;
         float: right;
+        margin: 12.5px auto auto;
+        padding: 0;
         width: 45%;
-        vertical-align: middle;
     }
 
     #menu ul {
-        font-size: 0.9rem;
         float: right;
+        font-size: 0.9rem;
         margin: auto 0.5rem;
-        vertical-align: middle;
-    }
-
-    nav {
-        vertical-align: middle;
     }
 
     main {
