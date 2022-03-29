@@ -387,6 +387,29 @@ main {
     .gallery img {
         margin: auto;
     }
+
+    #prev-book-left, #prev-book-center, #prev-book-right {
+        margin: auto;
+        padding: 0;
+        width: 25%;
+    }
+
+    #prev-book-left {
+        float: left;
+        margin-left: 10px;
+    }
+
+    #prev-book-right {
+        float: right;
+        margin-right: 10px;
+    }
+
+    #prev-book-center {
+        display: inline-block;
+        clear: both;
+        margin: auto;
+        padding-left: 12.5%;
+    }
 }
 
 /* for large screens 850px and larger */
