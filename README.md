@@ -117,7 +117,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     4. Used the "next-book" ID twice in the "up next" section, corrected this to be a class.
 
-    5. Header div does not fit content at larger screen sizes, so couldn't vertically center the logo and the nav bar.
+    5. Header div does not fit content at larger screen sizes, so couldn't vertically center the logo and the nav bar. Adjusted height of header to fit content. Nav bar width was also set to 100%, which prevented it from sitting next to the logo. Set the width to 40%, which allowed them to align next to each other at medium and large screen sizes. 
 
 ## Deployment
 

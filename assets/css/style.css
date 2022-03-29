@@ -30,7 +30,7 @@ h2 {
 
 /* logo and header */
 
-header {
+#header {
     background-color: #000;
     height: 80px;
     position: fixed;
@@ -313,23 +313,37 @@ main {
         width: 100%;
     }
 
+    #header {
+        height: fit-content;
+        background-color: #000;
+        margin: auto;
+    }
+
+    #logo {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
     #menu {
         background-color: #000;
         display: inline;
         float: right;
-        margin: auto;
-        width: 100%;
+        width: 45%;
         vertical-align: middle;
     }
 
     #menu ul {
         font-size: 0.9rem;
         float: right;
-        margin: auto;
+        margin: auto 0.5rem;
         vertical-align: middle;
     }
 
-    #header {
-        height: fit-content;
+    nav {
+        vertical-align: middle;
+    }
+
+    main {
+        margin-top: 48px;
     }
 }
