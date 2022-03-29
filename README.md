@@ -113,6 +113,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     2. Could not vertically align the "Submit" text in the submit button. The padding was equal on all sides, but it looks like the font itself has space built in underneath the letters. Adjusted the padding to compensate for this. The downside here is that the text will not appear centred if the custom font is not available or does not load.
 
+    3. There was a large gap between the "about us" section and the "next up" section due to a fixed height assigned to the div. Removed the height from the CSS code so that the sections stay close together.
+
+    4. Used the "next-book" ID twice in the "up next" section, corrected this to be a class.
+
 ## Deployment
 
 ### GitHub Pages

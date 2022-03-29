@@ -109,7 +109,6 @@ main {
 /* about us section */
  
 #about-us {
-    height: 320px;
     width: 100%;
 }
 
@@ -136,20 +135,24 @@ main {
 
 /* next book & meeting section */
 
+#up-next {
+    display: block;
+}
+
 #up-next img {
     display: block;
     height: 320px;
     margin: auto;
 }
 
-#next-book {
+.next-book {
     display: block;
     margin: auto;
     padding: 10px;
     text-align: center;
 }
 
-#next-book p {
+.next-book p {
     font-style: italic;
 }
 
