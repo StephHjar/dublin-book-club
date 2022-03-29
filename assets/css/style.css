@@ -313,7 +313,7 @@ main {
     color: #E29578;
 }
 
-/* for medium screens 635px and larger */
+/* for medium screens 650px and larger */
 
 @media screen and (min-width: 650px) {
     #hero-image {
@@ -386,5 +386,17 @@ main {
 
     .gallery img {
         margin: auto;
+    }
+}
+
+/* for large screens 850px and larger */
+
+@media screen and (min-width: 850px) {
+    #hero-image {
+        background: url(../images/hero-image-large.jpg) center center;
+        background-size: 2000px;
+        filter: saturate(50%);
+        height: 320px;
+        width: 100%;
     }
 }
