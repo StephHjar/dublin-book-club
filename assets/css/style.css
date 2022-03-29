@@ -312,4 +312,24 @@ main {
         height: 320px;
         width: 100%;
     }
+
+    #menu {
+        background-color: #000;
+        display: inline;
+        float: right;
+        margin: auto;
+        width: 100%;
+        vertical-align: middle;
+    }
+
+    #menu ul {
+        font-size: 0.9rem;
+        float: right;
+        margin: auto;
+        vertical-align: middle;
+    }
+
+    #header {
+        height: fit-content;
+    }
 }

@@ -117,6 +117,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     4. Used the "next-book" ID twice in the "up next" section, corrected this to be a class.
 
+    5. Header div does not fit content at larger screen sizes, so couldn't vertically center the logo and the nav bar.
+
 ## Deployment
 
 ### GitHub Pages
