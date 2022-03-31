@@ -55,20 +55,25 @@ h1 {
     text-decoration: none;
 }
 
+.logo img {
+    height: 35px;
+}
+
 /* navigation bar */
 
+/* menu */
 .menu {
-    background-color: #000;
-    display: inline;
-    float: left;
-    margin: auto auto;
-    padding-bottom: 0.5rem;
-    width: 100%;
+    background-color: none;
+    float: right;
+    margin: 12.5px auto auto;
+    padding: 0;
+    width: 85%;
 }
 
 .menu ul {
+    float: right;
     font-size: 0.9rem;
-    float: left;
+    margin: auto 0.5rem;
 }
 
 .menu li {
@@ -324,20 +329,6 @@ main {
     .logo {
         display: inline-block;
         vertical-align: middle;
-    }
-
-    .menu {
-        background-color: none;
-        float: right;
-        margin: 12.5px auto auto;
-        padding: 0;
-        width: 45%;
-    }
-
-    .menu ul {
-        float: right;
-        font-size: 0.9rem;
-        margin: auto 0.5rem;
     }
 
     main {
