@@ -73,6 +73,8 @@ This is the home page for the Dublin Book Club, a fiction book club for adults o
     - Unsplash was used for images (hero image and gallery images).
 1. [Pexels] (https://www.pexels.com/)
     - Pexels was used for gallery images.
+1. [Favicon] (https://favicon.io/)
+    - Favicon was used to generate a logo and favicon.
 
 ## Testing
 
