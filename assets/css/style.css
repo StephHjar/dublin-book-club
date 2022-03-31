@@ -30,7 +30,7 @@ h2 {
 
 /* logo and header */
 
-#header {
+.header-div {
     background-color: #000;
     height: 80px;
     position: fixed;
@@ -46,18 +46,18 @@ h1 {
     text-transform: uppercase;
 }
 
-#logo {
+.logo {
     float: left;
     margin: 0.5rem;
 }
 
-#logo a {
+.logo a {
     text-decoration: none;
 }
 
 /* navigation bar */
 
-#menu {
+.menu {
     background-color: #000;
     display: inline;
     float: left;
@@ -66,23 +66,23 @@ h1 {
     width: 100%;
 }
 
-#menu ul {
+.menu ul {
     font-size: 0.9rem;
     float: left;
 }
 
-#menu li {
+.menu li {
     display: inline;
     list-style-type: none;
     margin: 0.5rem;
 }
 
-#menu a {
+.menu a {
     color: #EDF6F9;
     text-decoration: none;
 }
 
-#menu a:hover {
+.menu a:hover {
     color: #E29578;
 }
 
@@ -96,14 +96,7 @@ main {
     margin-top: 80px;
 }
 
-#hero {
-    height: 320px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#hero-image {
+.hero-image {
     height: 320px;
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat bottom center;
@@ -112,7 +105,7 @@ main {
 
 /* about us section */
  
-#about-us {
+.about-us {
     display: inline-block;
     width: 100%;
 }
@@ -140,18 +133,18 @@ main {
 
 /* next book & meeting section */
 
-#up-next {
+.up-next {
     display: inline-block;
     width: 100%;
 }
 
-#up-next img {
+.up-next img {
     display: block;
     height: 320px;
     margin: auto;
 }
 
-#next-book {
+.next-book {
     display: block;
     margin: auto;
     padding: 10px;
@@ -159,20 +152,20 @@ main {
     width: fit-content;
 }
 
-#next-book p {
+.next-book p {
     font-style: italic;
 }
 
-#next-book a {
+.next-book a {
     color: #000;
     text-decoration: underline;
 }
 
-#next-book a:hover {
+.next-book a:hover {
     text-decoration: none;
 }
 
-#next-meeting {
+.next-meeting {
     background-color: #000;
     color: #83C5BE;
     display: block;
@@ -182,48 +175,48 @@ main {
     width: fit-content;
 }
 
-#next-meeting li {
+.next-meeting li {
     list-style-type: none;
 }
 
-#next-meeting p {
+.next-meeting p {
     font-style: italic;
 }
 
-#next-meeting a {
+.next-meeting a {
     color: #E29578;
 }
 
-#next-meeting a:hover {
+.next-meeting a:hover {
     text-decoration: none;
 }
 
 /* previous books section */
 
-#previous-books {
+.previous-books {
     display: block;
     margin: auto;
 }
 
-#previous-books img {
+.previous-books img {
     height: 320px;
 }
 
-#prev-book-left {
+.prev-book-left {
     display: block;
     margin: auto;
     padding: 10px;
     text-align: center;
 }
 
-#prev-book-right {
+.prev-book-right {
     display: block;
     margin: auto;
     padding: 10px;
     text-align: center;
 }
 
-#prev-book-center {
+.prev-book-center {
     display: block;
     margin: auto;
     padding: 10px;
@@ -250,16 +243,16 @@ main {
 
 /* registration page + form */
 
-#form-heading p {
+.form-heading p {
     margin: 0.5rem;
 }
 
-#register-form {
+.register-form {
     max-width: 320px;
     margin: 0.5rem;
 }
 
-#register-form label {
+.register-form label {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     text-decoration: solid underline 1.5px #E29578;
@@ -316,24 +309,24 @@ main {
 /* for medium screens 650px and larger */
 
 @media screen and (min-width: 650px) {
-    #hero-image {
+    .hero-image {
         background: url(../images/hero-image.jpg) no-repeat bottom center;
         background-size: 860px;
         height: 320px;
         width: 100%;
     }
 
-    #header {
+    .header-div {
         height: fit-content;
         margin: auto;
     }
 
-    #logo {
+    .logo {
         display: inline-block;
         vertical-align: middle;
     }
 
-    #menu {
+    .menu {
         background-color: none;
         float: right;
         margin: 12.5px auto auto;
@@ -341,7 +334,7 @@ main {
         width: 45%;
     }
 
-    #menu ul {
+    .menu ul {
         float: right;
         font-size: 0.9rem;
         margin: auto 0.5rem;
@@ -351,23 +344,23 @@ main {
         margin-top: 48px;
     }
 
-    #up-next {
+    .up-next {
         width: 100%;
     }
 
-    #next-book, #next-meeting {
+    .next-book, .next-meeting {
         display: inline-block;
         margin: 0 auto;
         width: 45%;
     }
 
-    #next-meeting {
+    .next-meeting {
         height: fit-content;
         margin-top: 120px;
         vertical-align: top;
     }
 
-    #gallery-wrapper {
+    .gallery-wrapper {
         display: grid;
         overflow: hidden;
         grid-template-columns: repeat(3, 1fr);
@@ -388,23 +381,23 @@ main {
         margin: auto;
     }
 
-    #prev-book-left, #prev-book-center, #prev-book-right {
+    .prev-book-left, .prev-book-center, .prev-book-right {
         margin: auto;
         padding: 0;
         width: 25%;
     }
 
-    #prev-book-left {
+    .prev-book-left {
         float: left;
         margin-left: 10px;
     }
 
-    #prev-book-right {
+    .prev-book-right {
         float: right;
         margin-right: 10px;
     }
 
-    #prev-book-center {
+    .prev-book-center {
         display: inline-block;
         clear: both;
         margin: auto;
@@ -415,7 +408,7 @@ main {
 /* for large screens 850px and larger */
 
 @media screen and (min-width: 850px) {
-    #hero-image {
+    .hero-image {
         background: url(../images/hero-image-large.jpg) center center;
         background-size: 2000px;
         filter: saturate(50%);
