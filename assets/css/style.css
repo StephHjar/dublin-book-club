@@ -314,6 +314,11 @@ main {
 /* for medium screens 650px and larger */
 
 @media screen and (min-width: 650px) {
+
+    .logo img {
+        height: 70px;
+    }
+
     .hero-image {
         background: url(../images/hero-image.jpg) no-repeat bottom center;
         background-size: 860px;
