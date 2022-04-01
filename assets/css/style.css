@@ -32,7 +32,7 @@ h2 {
 
 .header-div {
     background-color: #000;
-    height: 80px;
+    height: fit-content;
     position: fixed;
     top: 0;
     width: 100%;
@@ -48,6 +48,7 @@ h1 {
 
 .logo {
     float: left;
+    height: 35px;
     margin: 0.5rem;
 }
 
@@ -61,19 +62,18 @@ h1 {
 
 /* navigation bar */
 
-/* menu */
 .menu {
     background-color: none;
     float: right;
-    margin: 12.5px auto auto;
+    margin: 17.5px auto auto;
     padding: 0;
+    position: relative;
     width: 85%;
 }
 
 .menu ul {
     float: right;
     font-size: 0.9rem;
-    margin: auto 0.5rem;
 }
 
 .menu li {
@@ -98,7 +98,7 @@ h1 {
 /* hero image */
 
 main {
-    margin-top: 80px;
+    margin-top: 59px;
 }
 
 .hero-image {
@@ -315,10 +315,6 @@ main {
 
 @media screen and (min-width: 650px) {
 
-    .logo img {
-        height: 70px;
-    }
-
     .hero-image {
         background: url(../images/hero-image.jpg) no-repeat bottom center;
         background-size: 860px;
@@ -334,6 +330,11 @@ main {
     .logo {
         display: inline-block;
         vertical-align: middle;
+    }
+
+
+    .logo img {
+        height: 70px;
     }
 
     main {
