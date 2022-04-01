@@ -98,7 +98,7 @@ h1 {
 /* hero image */
 
 main {
-    margin-top: 59px;
+    margin-top: 50px;
 }
 
 .hero-image {
@@ -106,6 +106,19 @@ main {
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat bottom center;
     background-size: 640px;
+}
+
+.hero-image-text {
+    background-color: rgba(0, 0, 0, 0.44);
+    float: right;
+    height: fit-content;
+    right: 5%;
+    top: 50%;
+    padding-left: 5px;
+    padding-top: 5px;
+    position: relative;
+    text-align: right;
+    width: fit-content;
 }
 
 /* about us section */
