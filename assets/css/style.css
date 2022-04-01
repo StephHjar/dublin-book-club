@@ -327,8 +327,13 @@ main {
         margin: auto;
     }
 
+    .menu ul {
+        font-size: 1.25rem;
+    }
+
     .logo {
         display: inline-block;
+        height: fit-content; 
         vertical-align: middle;
     }
 
@@ -337,8 +342,16 @@ main {
         height: 70px;
     }
 
+    .menu {
+        margin: 35px auto auto;
+    }
+
     main {
         margin-top: 48px;
+    }
+
+    h2 {
+        font-size: 1.75rem;
     }
 
     .up-next {
