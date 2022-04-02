@@ -1,4 +1,4 @@
-<h1 align="center">Dublin Book Club</h1>
+<h1>Dublin Book Club</h1>
 
 [View the live project here.](https://stephhjar.github.io/dublin-book-club/)
 
@@ -34,11 +34,11 @@ This is the home page for the Dublin Book Club, a fiction book club for adults o
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View]()
+    -   Desktop Wireframe - [View](assets/readme/desktop.pdf)
 
-    -   Tablet Wireframe - [View]()
+    -   Tablet Wireframe - [View](assets/readme/tablet.pdf)
 
-    -   Mobile Wireframe - [View]()
+    -   Mobile Wireframe - [View](assets/readme/mobile.pdf)
 
 ## Features
 
