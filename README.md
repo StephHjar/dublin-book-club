@@ -125,6 +125,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     5. Header div does not fit content at larger screen sizes, so couldn't vertically center the logo and the nav bar. Adjusted height of header to fit content. Nav bar width was also set to 100%, which prevented it from sitting next to the logo. Set the width to 40%, which allowed them to align next to each other at medium and large screen sizes. 
 
+    6. Testimonials weren't center aligned in their section on larger screens because the flex boxes weren't taking up the entire section. Changed flex-basis so that each of the three flex boxes took up an equal amount of space.
+
 ## Deployment
 
 ### GitHub Pages
