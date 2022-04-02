@@ -194,6 +194,7 @@ h1 {
 
 .next-meeting {
     background-color: #000;
+    border: double #83C5BE 10px;
     color: #83C5BE;
     display: block;
     margin: auto;
