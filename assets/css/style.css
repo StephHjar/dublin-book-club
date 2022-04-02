@@ -64,7 +64,6 @@ img {
 /* navigation bar */
 
 .menu {
-    background-color: none;
     float: right;
     margin: 17.5px auto auto;
     padding: 0;
@@ -194,7 +193,7 @@ h1 {
 
 .next-meeting {
     background-color: #000;
-    border: double #83C5BE 10px;
+    border: solid #83C5BE 10px;
     color: #83C5BE;
     display: block;
     margin: auto;
