@@ -385,7 +385,8 @@ h1 {
 }
 
 .rsvp-form {
-    margin: 0.5rem;
+    margin: auto;
+    max-width: 750px;
 }
 
 .rsvp-form label {
@@ -393,6 +394,10 @@ h1 {
     font-weight: bold;
     text-decoration: solid underline 1.5px #E29578;
     text-transform: uppercase;
+}
+
+.rsvp-form input {
+    max-width: 750px;
 }
 
 .submit-button {

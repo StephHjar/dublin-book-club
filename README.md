@@ -79,6 +79,8 @@ This is the home page for the Dublin Book Club, a fiction book club for adults o
     - This page on GitConnected was used to build a carousel with HTML & CSS.
 1. [WebFX](https://www.webfx.com/blog/web-design/circular-images-css/)
     - This page on WebFX was used to make rectangular images circular in the testimonial section.
+1. [StackOverflow](https://stackoverflow.com/)
+    - StackOverflow was used as a resource and for help while debugging.
 
 ## Testing
 
@@ -128,6 +130,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     6. Testimonials weren't center aligned in their section on larger screens because the flex boxes weren't taking up the entire section. Changed flex-basis so that each of the three flex boxes took up an equal amount of space.
 
     7. The carousel was missing the navigator bar due to a missing div tag, which meant the nav buttons were enclosed in the same div as the slides.
+
+    8. The testimonials in the carousel were overflowing on to the next slide on mobile. Solved this by removing the padding from the slides themselves, and adding the padding to the larger carousel div.
+
+    9. The social media links in the footer were not fixed to the bottom of the page (regardless of the amount of content). Found a social on StackOverflow, by setting the body as a vertical text box and aligning the footer underneath it. 
 
 ## Deployment
 
