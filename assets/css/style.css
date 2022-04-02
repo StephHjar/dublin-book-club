@@ -228,20 +228,21 @@ h1 {
     text-align: center;
 }
   
-  .slides {
+.slides {
     display: flex;
-    width: 100%;
+    padding: 5px;
     overflow-x: scroll;
     scrollbar-width: none;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
-  }
+    width: 100%;
+}
 
-  .slides::-webkit-scrollbar {
+.slides::-webkit-scrollbar {
     display: none;
 }
   
-  .slides-item {
+.slides-item {
     align-items: center;
     border-radius: 10px;
     flex-shrink: 0;
@@ -257,7 +258,7 @@ h1 {
     width: 100%;
 }
 
-.testimonial-image-1 {
+.testimonial-image-1, .testimonial-image-3 {
     display: inline-block; 
     position: relative; 
     height: 55px; 
@@ -274,32 +275,23 @@ h1 {
     border-radius: 50%; 
 } 
 
-.testimonial-image-3 {
-    display: inline-block; 
-    position: relative; 
-    height: 55px; 
-    width: 55px;
-    overflow: hidden; 
-    border-radius: 50%; 
-} 
-
-  .slides-item img {
+.slides-item img {
       box-shadow: none;
       width: auto; 
       height: 100%; 
       margin-left: 0; 
-  }
+}
 
-  .slides-item p {
+.slides-item p {
       display: block;
-  }
+ }
   
-  .carousel__nav {
+.carousel__nav {
     margin: auto;
     padding: 0 0.5rem 0.5rem;
-  }
+}
   
-  .slider-nav {
+.slider-nav {
     align-items: center;
     background-color: #ddd;
     border-radius: 50%;
@@ -311,12 +303,12 @@ h1 {
     position: relative;
     text-decoration: none;
     width: 1.5rem;
-  }
+}
   
-  .slider-nav:hover {
+.slider-nav:hover {
     background-color: #000;
     color: #fff;
-  }
+}
 
 /* previous books section */
 
@@ -504,7 +496,7 @@ h1 {
     .next-book, .next-meeting {
         display: inline-block;
         margin: 0 auto;
-        width: 45%;
+        width: 42%;
     }
 
     .next-meeting {
