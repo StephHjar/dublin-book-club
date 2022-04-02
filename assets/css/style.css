@@ -28,6 +28,10 @@ h2 {
     text-transform: uppercase;
 }
 
+img {
+    box-shadow: 2.5px 2.5px 2.5px;
+}
+
 /* logo and header */
 
 .header-div {
@@ -95,6 +99,7 @@ main {
 }
 
 .hero-image {
+    box-shadow: none;
     height: 320px;
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat bottom center;
@@ -163,7 +168,7 @@ h1 {
 .up-next img {
     display: block;
     height: 320px;
-    margin: auto;
+    margin: auto auto 10px;
 }
 
 .next-book {
