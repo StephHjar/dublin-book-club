@@ -327,6 +327,15 @@ h1 {
 
 .previous-books img {
     height: 320px;
+    margin: 10px auto;
+}
+
+.previous-books a {
+    color: #000;
+}
+
+.previous-books a:hover {
+    text-decoration: none;
 }
 
 .prev-book-left {
