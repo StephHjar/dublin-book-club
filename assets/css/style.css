@@ -350,22 +350,19 @@ h1 {
     text-align: center;
 }
 
-/* gallery and testimonials */
+/* gallery */
 
 .gallery {
-    display: block;
-    margin: 1rem auto;
-    padding: 0;
+    clear: both;
+    column-count: 1;
+    column-gap: 0.5rem;
+    line-height: 0;
     text-align: center;
-    width: 75%;
 }
 
 .gallery img {
-    width: 100%;
-}
-
-.gallery p {
-    border: solid 1px #000;
+    margin-top: 10px;
+    width: 75%;
 }
 
 /* registration page + form */
@@ -524,25 +521,8 @@ h1 {
         display: none;
     }
 
-    .gallery-wrapper {
-        display: grid;
-        overflow: hidden;
-        grid-template-columns: repeat(3, 1fr);
-        grid-auto-rows: 1fr;
-        grid-column-gap: 5px;
-        grid-row-gap: 5px;
-        margin: 0.5rem auto;
-    }
-
-    .gallery {
-        display: flex;
-        margin: auto;
-        width: 100%;
-        vertical-align: top;
-    }
-
     .gallery img {
-        margin: auto;
+        margin-top: 20px;
     }
 }
 
@@ -582,5 +562,13 @@ h1 {
         clear: both;
         margin: auto;
         padding-left: 12.5%;
+    }
+
+    .gallery {
+        clear: both;
+        column-count: 2;
+        column-gap: 0.5rem;
+        line-height: 0;
+        text-align: center;
     }
 }
