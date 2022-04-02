@@ -379,12 +379,19 @@ h1 {
 
 /* registration page + form */
 
+.form-section {
+    padding: 10% 0 30%;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+    width: 85%;
+}
+
 .form-heading p {
     margin: 0.5rem;
 }
 
 .rsvp-form {
-    max-width: 320px;
     margin: 0.5rem;
 }
 
