@@ -434,7 +434,6 @@ main {
     .hero-image {
         background: url(../images/hero-image-large.jpg) center center;
         background-size: 2000px;
-        filter: saturate(50%);
         height: 320px;
         width: 100%;
     }
