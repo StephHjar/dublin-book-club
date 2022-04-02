@@ -64,16 +64,16 @@ This is the home page for the Dublin Book Club, a fiction book club for adults o
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the [wireframes](https://github.com/StephHjar/dublin-book-club/tree/main/assets/readme) during the design process.
 1. [EightShapes Contrast Grid:](https://contrast-grid.eightshapes.com/)
     - EightShapes was used to ensure color contrast for accessibility.
 1. [Coolors.co:](https://coolors.co/)
     - Coolors was used to generate a color palette.
-1. [Unsplash] (https://unsplash.com/)
+1. [Unsplash](https://unsplash.com/)
     - Unsplash was used for images (hero image and gallery images).
-1. [Pexels] (https://www.pexels.com/)
+1. [Pexels](https://www.pexels.com/)
     - Pexels was used for gallery images.
-1. [Favicon] (https://favicon.io/)
+1. [Favicon](https://favicon.io/)
     - Favicon was used to generate a logo and favicon.
 
 ## Testing
@@ -172,10 +172,10 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ## Credits
 
 -   Footer with social media links used code from the Love Running walkthrough
-
--   [Goodreads] (https://www.goodreads.com/) for book covers and synopses
-
--   [TinyPNG] (https://tinypng.com/) to compress image sizes
+-   [Code Institute Sample Readme](https://github.com/Code-Institute-Solutions/SampleREADME) for the README 
+-   [Goodreads](https://www.goodreads.com/) for book covers and synopses
+-   [TinyPNG](https://tinypng.com/) to compress image sizes
+-   [BestSlogans.com](https://www.bestslogans.com/list-ideas-taglines/reading-club-slogans/) for the book club slogan
 
 ### Code
 
