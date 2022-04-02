@@ -68,7 +68,7 @@ img {
     margin: 17.5px auto auto;
     padding: 0;
     position: relative;
-    width: 85%;
+    width: fit-content;
 }
 
 .menu ul {
