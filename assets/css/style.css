@@ -470,7 +470,6 @@ h1 {
         vertical-align: middle;
     }
 
-
     .logo img {
         height: 70px;
     }
@@ -545,6 +544,22 @@ h1 {
     .gallery img {
         margin: auto;
     }
+}
+
+/* for large screens 850px and larger */
+
+@media screen and (min-width: 850px) {
+
+    .hero-image {
+        background: url(../images/hero-image-large.jpg) center center;
+        background-size: 2000px;
+        height: 320px;
+        width: 100%;
+    }
+
+    .previous-books {
+        width: 100%;
+    }
 
     .prev-book-left, .prev-book-center, .prev-book-right {
         margin: auto;
@@ -567,16 +582,5 @@ h1 {
         clear: both;
         margin: auto;
         padding-left: 12.5%;
-    }
-}
-
-/* for large screens 850px and larger */
-
-@media screen and (min-width: 850px) {
-    .hero-image {
-        background: url(../images/hero-image-large.jpg) center center;
-        background-size: 2000px;
-        height: 320px;
-        width: 100%;
     }
 }
