@@ -39,13 +39,6 @@ h2 {
     z-index: 2;
 }
 
-h1 {
-    color: #83C5BE;
-    font-family: 'Josefin Sans', sans-serif;
-    letter-spacing: 0.7px;
-    text-transform: uppercase;
-}
-
 .logo {
     float: left;
     height: 35px;
@@ -114,11 +107,22 @@ main {
     height: fit-content;
     right: 2.5%;
     top: 50%;
-    padding-left: 5px;
-    padding-top: 5px;
+    padding: 5px;
     position: relative;
     text-align: right;
     width: fit-content;
+}
+
+h1 {
+    color: #83C5BE;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+.hero-image-text p {
+    color: #FFDDD2;
+    font-style: italic;
 }
 
 /* about us section */
@@ -265,12 +269,12 @@ main {
     margin: 0.5rem;
 }
 
-.register-form {
+.rsvp-form {
     max-width: 320px;
     margin: 0.5rem;
 }
 
-.register-form label {
+.rsvp-form label {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     text-decoration: solid underline 1.5px #E29578;
