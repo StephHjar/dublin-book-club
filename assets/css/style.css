@@ -457,6 +457,10 @@ h1 {
         margin: auto;
     }
 
+    .menu {
+        margin: 35px 10px auto;
+    }
+
     .menu ul {
         font-size: 1.25rem;
     }
@@ -470,11 +474,6 @@ h1 {
     .logo img {
         height: 70px;
     }
-
-    .menu {
-        margin: 35px auto auto;
-    }
-
     main {
         margin-top: 90px;
     }
@@ -483,7 +482,7 @@ h1 {
         font-size: 1.75rem;
     }
 
-    .about-us, .up-next {
+    .about-us, .up-next, .testimonials {
         margin-left: 7.5%;
         width: 85%;
     }
@@ -574,6 +573,7 @@ h1 {
 }
 
 @media screen and (min-width: 1024px) {
+
     .gallery {
         clear: both;
         column-count: 3;
