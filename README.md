@@ -75,6 +75,10 @@ This is the home page for the Dublin Book Club, a fiction book club for adults o
     - Pexels was used for gallery images.
 1. [Favicon](https://favicon.io/)
     - Favicon was used to generate a logo and favicon.
+1. [GitConnected](https://levelup.gitconnected.com/how-to-make-a-fully-accessible-css-only-carousel-40e8bd62032b)
+    - This page on GitConnected was used to build a carousel with HTML & CSS.
+1. [WebFX](https://www.webfx.com/blog/web-design/circular-images-css/)
+    - This page on WebFX was used to make rectangular images circular in the testimonial section.
 
 ## Testing
 

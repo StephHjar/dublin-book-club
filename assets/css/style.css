@@ -218,6 +218,106 @@ h1 {
     text-decoration: none;
 }
 
+/* carousel with testimonials */
+.carousel {
+    border: 1px solid #000;
+    margin: 1rem auto;
+    overflow: hidden;
+    text-align: center;
+}
+  
+  .slides {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+
+  .slides::-webkit-scrollbar {
+    display: none;
+}
+  
+  .slides-item {
+    align-items: center;
+    border-radius: 10px;
+    flex-shrink: 0;
+    font-style: italic;
+    height: 25%;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 0.5rem;
+    position: relative;
+    scroll-snap-align: start;
+    transform: scale(1);
+    transform-origin: center center;
+    transition: transform .5s;
+    width: 100%;
+}
+
+.testimonial-image-1 {
+    display: inline-block; 
+    position: relative; 
+    height: 55px; 
+    width: 55px;
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+
+.testimonial-image-2 {
+    display: inline-block; 
+    position: relative; 
+    height: 55px; 
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+
+.testimonial-image-3 {
+    display: inline-block; 
+    position: relative; 
+    height: 55px; 
+    width: 55px;
+    overflow: hidden; 
+    border-radius: 50%; 
+} 
+
+  .slides-item img {
+      box-shadow: none;
+      width: auto; 
+      height: 100%; 
+      margin-left: 0; 
+  }
+
+  .slides-item p {
+      display: block;
+  }
+  
+  .carousel__nav {
+    margin: auto;
+    padding: 0 0.5rem 0.5rem;
+  }
+  
+  .slider-nav {
+    align-items: center;
+    background-color: #ddd;
+    border-radius: 50%;
+    color: #000;
+    display: inline-flex;
+    height: 1.5rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+    position: relative;
+    text-decoration: none;
+    width: 1.5rem;
+  }
+  
+  .slider-nav:hover,
+  .slider-nav:active {
+    background-color: #000;
+    color: #fff;
+  }
+
 /* previous books section */
 
 .previous-books {
