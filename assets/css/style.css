@@ -14,6 +14,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+main {
+    margin-top: 51px;
+}
 
 h2 {
     border-bottom: 1px solid #E29578;
@@ -94,10 +97,6 @@ img {
 }
 
 /* hero image */
-
-main {
-    margin-top: 50px;
-}
 
 .hero-image {
     box-shadow: none;
@@ -479,7 +478,7 @@ h1 {
     }
 
     main {
-        margin-top: 48px;
+        margin-top: 90px;
     }
 
     h2 {
