@@ -127,6 +127,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     6. Testimonials weren't center aligned in their section on larger screens because the flex boxes weren't taking up the entire section. Changed flex-basis so that each of the three flex boxes took up an equal amount of space.
 
+    7. The carousel was missing the navigator bar due to a missing div tag, which meant the nav buttons were enclosed in the same div as the slides.
+
 ## Deployment
 
 ### GitHub Pages
@@ -177,7 +179,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
--   Footer with social media links used code from the Love Running walkthrough
+-   Footer with social media links and the gallery page used code from Code Institute's Love Running walkthrough
 -   [Code Institute Sample Readme](https://github.com/Code-Institute-Solutions/SampleREADME) for the README 
 -   [Goodreads](https://www.goodreads.com/) for book covers and synopses
 -   [TinyPNG](https://tinypng.com/) to compress image sizes
