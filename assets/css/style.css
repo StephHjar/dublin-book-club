@@ -461,6 +461,14 @@ h1 {
 
 @media screen and (min-width: 650px) {
 
+    main {
+        margin-top: 90px;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
     .hero-image {
         background: url(../images/hero-image.webp) no-repeat bottom center;
         background-size: 860px;
@@ -495,14 +503,6 @@ h1 {
         height: 70px;
     }
 
-    main {
-        margin-top: 90px;
-    }
-
-    h2 {
-        font-size: 1.75rem;
-    }
-
     .about-us,
     .up-next,
     .testimonials {
@@ -524,6 +524,7 @@ h1 {
     }
 
     .carousel {
+        border: none;
         height: fit-content;
     }
 
@@ -536,8 +537,13 @@ h1 {
     }
 
     .slides-item {
+        border: 1px solid #000;
+        border-radius: 0;
         margin: 0.5rem;
-        width: 30%;
+        padding: 1rem;
+        height: fit-content;
+        max-width: 300px;
+        top: 0px;
     }
 
     .carousel__nav {
@@ -608,6 +614,15 @@ h1 {
         column-gap: 0.5rem;
         line-height: 0;
         text-align: center;
+    }
+}
+
+/* for large desktop screens 1250 px and larger */
+
+@media screen and (min-width: 1250px) {
+
+    .slides-item {
+        margin: 0.5rem auto;
     }
 }
 
