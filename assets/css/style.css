@@ -382,21 +382,22 @@ h1 {
 
 /* rsvp page + form */
 
-.form-section {
-    background-color: rgba(0, 0, 0, 0.25);
-    padding: 10% 0;
-    margin: auto;
-    height: 100%;
-    text-align: center;
-    width: 50%;
-}
-
 .form-background {
     box-shadow: none;
-    height: 33%;
+    height: 400px;
     width: 100%;
-    background: url(../images/form-background.webp) no-repeat bottom center;
-    background-size: 640px;
+    background: url(../images/form-background.webp) no-repeat top left;
+    background-size: 800px;
+}
+
+.form-section {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: fit-content;
+    top: 5rem;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    max-width: 100%;
 }
 
 .form-heading p {
@@ -408,6 +409,7 @@ h1 {
 }
 
 .rsvp-form label {
+    color: #fff;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bold;
     text-decoration: solid underline 1.5px #E29578;
@@ -431,9 +433,10 @@ h1 {
 
 .text-input {
     border: solid 1px #000;
+    display: block;
     margin: 0.25rem auto 0.5rem;
+    max-width: 100%;
     padding: 0.25rem;
-    width: 100%;
 }
 
 .text-input:hover {
