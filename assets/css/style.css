@@ -11,14 +11,14 @@
 
 body {
     background-color: #EDF6F9;
-    display: flex; 
-    flex-direction: column; 
+    display: flex;
+    flex-direction: column;
     font-family: 'Montserrat', sans-serif;
 }
-  
+
 footer {
-    margin-top: auto; 
-  }
+    margin-top: auto;
+}
 
 main {
     margin-top: 51px;
@@ -108,7 +108,7 @@ img {
     box-shadow: none;
     height: 320px;
     width: 100%;
-    background: url(../images/hero-image.jpg) no-repeat bottom center;
+    background: url(../images/hero-image.webp) no-repeat bottom center;
     background-size: 640px;
 }
 
@@ -137,7 +137,7 @@ h1 {
 }
 
 /* about us section */
- 
+
 .about-us {
     display: inline-block;
     width: 100%;
@@ -233,7 +233,7 @@ h1 {
     padding: 5px;
     text-align: center;
 }
-  
+
 .slides {
     display: flex;
     overflow-x: scroll;
@@ -246,7 +246,7 @@ h1 {
 .slides::-webkit-scrollbar {
     display: none;
 }
-  
+
 .slides-item {
     align-items: center;
     border-radius: 10px;
@@ -263,39 +263,40 @@ h1 {
     width: 100%;
 }
 
-.testimonial-image-1, .testimonial-image-3 {
-    display: inline-block; 
-    position: relative; 
-    height: 55px; 
+.testimonial-image-1,
+.testimonial-image-3 {
+    display: inline-block;
+    position: relative;
+    height: 55px;
     width: 55px;
-    overflow: hidden; 
-    border-radius: 50%; 
-} 
+    overflow: hidden;
+    border-radius: 50%;
+}
 
 .testimonial-image-2 {
-    display: inline-block; 
-    position: relative; 
-    height: 55px; 
-    overflow: hidden; 
-    border-radius: 50%; 
-} 
+    display: inline-block;
+    position: relative;
+    height: 55px;
+    overflow: hidden;
+    border-radius: 50%;
+}
 
 .slides-item img {
-      box-shadow: none;
-      width: auto; 
-      height: 100%; 
-      margin-left: 0; 
+    box-shadow: none;
+    width: auto;
+    height: 100%;
+    margin-left: 0;
 }
 
 .slides-item p {
-      display: block;
- }
-  
+    display: block;
+}
+
 .carousel__nav {
     margin: auto;
     padding: 0 0.5rem 0.5rem;
 }
-  
+
 .slider-nav {
     align-items: center;
     background-color: #ddd;
@@ -309,7 +310,7 @@ h1 {
     text-decoration: none;
     width: 1.5rem;
 }
-  
+
 .slider-nav:hover {
     background-color: #000;
     color: #fff;
@@ -453,7 +454,7 @@ h1 {
 @media screen and (min-width: 650px) {
 
     .hero-image {
-        background: url(../images/hero-image.jpg) no-repeat bottom center;
+        background: url(../images/hero-image.webp) no-repeat bottom center;
         background-size: 860px;
         height: 320px;
         width: 100%;
@@ -478,13 +479,14 @@ h1 {
 
     .logo {
         display: inline-block;
-        height: fit-content; 
+        height: fit-content;
         vertical-align: middle;
     }
 
     .logo img {
         height: 70px;
     }
+
     main {
         margin-top: 90px;
     }
@@ -493,12 +495,15 @@ h1 {
         font-size: 1.75rem;
     }
 
-    .about-us, .up-next, .testimonials {
+    .about-us,
+    .up-next,
+    .testimonials {
         margin-left: 7.5%;
         width: 85%;
     }
 
-    .next-book, .next-meeting {
+    .next-book,
+    .next-meeting {
         display: inline-block;
         margin: 0 auto;
         width: 42%;
@@ -518,7 +523,7 @@ h1 {
         overflow-x: visible;
     }
 
-    .slides > * {
+    .slides>* {
         flex: 1 1 auto;
     }
 
@@ -541,7 +546,7 @@ h1 {
 @media screen and (min-width: 850px) {
 
     .hero-image {
-        background: url(../images/hero-image-large.jpg) center center;
+        background: url(../images/hero-image-large.webp) center center;
         background-size: 2000px;
         height: 320px;
         width: 100%;
@@ -551,7 +556,9 @@ h1 {
         width: 100%;
     }
 
-    .prev-book-left, .prev-book-center, .prev-book-right {
+    .prev-book-left,
+    .prev-book-center,
+    .prev-book-right {
         margin: auto;
         padding: 0;
         width: 25%;

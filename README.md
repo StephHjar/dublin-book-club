@@ -81,6 +81,8 @@ This is the home page for the Dublin Book Club, a fiction book club for adults o
     - This page on WebFX was used to make rectangular images circular in the testimonial section.
 1. [StackOverflow](https://stackoverflow.com/)
     - StackOverflow was used as a resource and for help while debugging.
+1. [CloudConvert](https://cloudconvert.com/)
+    - CloudConvert was used to convert images to WEBP format.
 
 ## Testing
 
