@@ -150,11 +150,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Used Lighthouse to test performance and accessibility. The first test for the Mobile version of the site led to a performance score of 79, so I set specific heights & widths for each image. This led to images being warped and stretched because they are already being resized using CSS, so I removed the explicit measurements. Scores are much higher on desktop. Here are the final scores:
     - Mobile: [Home](assets/readme/lighthouse-mobile-home.png) | [Gallery](assets/readme/lighthouse-mobile-gallery.png) | [Books](assets/readme/lighthouse-mobile-books.png) | [RSVP](assets/readme/lighthouse-mobile-rsvp.png)
     - Desktop: [Home](assets/readme/lighthouse-desktop-home.png) | [Gallery](assets/readme/lighthouse-desktop-gallery.png) | [Books](assets/readme/lighthouse-desktop-books.png) | [RSVP](assets/readme/lighthouse-desktop-rsvp.png)
--   Used [WAVE web accessibility evaluation tool](https://wave.webaim.org/) to test accessibilty. Passed with no errors across all pages. 
-    -   1 alert on home page, which was a redundant link (since both the logo and the 'Home' button in the nav link to the home page). 
-    -   5 alerts on gallery page, 3 x due to long alt text so I adjusted the alt text. 1 x due to the fact that there was no h1 element. I nested the DBC logo in an h1 element, and made the alt text "Dublin Book Club" so this is clearer for people using screen readers. Final results:
-     - Mobile: [Home](assets/readme/lighthouse-mobile-home.png) | [Gallery](assets/readme/lighthouse-mobile-gallery.png) | [Books](assets/readme/lighthouse-mobile-books.png) | [RSVP](assets/readme/lighthouse-mobile-rsvp.png)
-    - Desktop: [Home](assets/readme/lighthouse-desktop-home.png) | [Gallery](assets/readme/lighthouse-desktop-gallery.png) | [Books](assets/readme/lighthouse-desktop-books.png) | [RSVP](assets/readme/lighthouse-desktop-rsvp.png)
+-   Used [WAVE web accessibility evaluation tool](https://wave.webaim.org/) to test accessibilty. Passed with no errors across all pages after some adjustments. Initial results: 
+    -   1 alert across all pages, which was a redundant link (since both the logo and the 'Home' button in the nav link to the home page). I left this in place as it is a navigation feature of the site: it is a convention that clicking the logo will take you to the site's home page.
+    -   5 alerts on gallery page, 3 x due to long alt text so I adjusted the alt text. 1 x due to the fact that there was no h1 element. I nested the DBC logo in an h1 element, and made the alt text "Dublin Book Club" so this is clearer for people using screen readers. 1 x due to the above.
+    -   Final results: [Home](assets/readme/wave-home.png) | [Gallery](assets/readme/wave-gallery.png) | [Books](assets/readme/wave-books.png) | [RSVP](assets/readme/wave-rsvp.png)
 
 ### Known Bugs (Resolved)
 
