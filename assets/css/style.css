@@ -183,11 +183,14 @@ h1 {
 }
 
 .next-book p {
+    color: #505050;
     font-style: italic;
+    margin: 5px auto 0;
 }
 
 .next-book a {
     color: #000;
+    margin: 5px auto 0;
     text-decoration: underline;
 }
 
