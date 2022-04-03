@@ -178,6 +178,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - The social media links in the footer were not fixed to the bottom of the page (regardless of the amount of content). Found a resource on StackOverflow, and discovered that by setting the body as a vertical flex box and aligning the footer underneath it, the social media icons stay fixed closer to the bottom of the page.
 
+### Known Bugs (Not Resolved)
+
+- Submitting the form on the RSVP page sends the data to [Code Institute's formdump](https://formdump.codeinstitute.net/) because I do not have a server to send the data to. This means that clicking "Submit" after filling the forms in correctly will take you away from the Dublin Book Club webpage, to a Code Institute branded page confirming that the form was built correctly, with a summary of the data that was submitted. This is a placeholder for the purposes of this project, until I have a better understanding of how to set up a server to receive form data. 
+
 ## Deployment
 
 ### GitHub Pages
