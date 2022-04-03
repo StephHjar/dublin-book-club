@@ -29,8 +29,7 @@ This is the home page for the Dublin Book Club, a fiction book club for adults o
 -   ### Design
     -   #### Colour Scheme
         -   The main colours used are black, light blue, turquoise, and orange. I wanted to choose colours that are not
-        typically considered 'gendered'. Book clubs can be associated as more targeted towards women, and I wanted to create
-        a site that made it clear the group is open to anyone of all ages and genders. 
+        typically considered 'gendered'. Book clubs can be associated as more targeted towards women, and I wanted to create a site that made it clear the group is open to anyone of all ages and genders. 
     -   #### Typography
         -   Josefin Sans was used for headers and Montserrat for the main text of the webpage. Both fonts look clean and professional, are accessible and easy to read. 
     -   #### Imagery
@@ -110,19 +109,36 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
  
     3. As a First Time Visitor, I want to find out what happens at book club meetings, and how they are organized. I want to see photos from previous events and hear from members.
 
+        1. On the home page there is an 'About Us' description that gives a clear explanation about what happens at club meetings. 
+        2. Below that, there is information about the time & place of the next club meeting, with a link to the RSVP page, where I can register my attendance.
+        3. Below that, at the bottom of the page, there are testimonials from current members, which builds trust and allows me to hear from people who have attended book club meetings in the past.
+        4. There is a gallery page clearly accessible from the navigation bar where I can see photos of members and from previous events. 
+
 -   #### Returning Visitor Goals
 
     1. As a Returning Visitor, I want to find out the date and time of the next meeting. 
 
+        1. The date & time of the next meeting is clearly visible on the home page, in the section headed "Up Next". This is updated every 6 weeks, to show the details of the upcoming meeting.
+
     2. As a Returning Visitor, I want to find out what the next book selection is. 
 
+        1. The book cover, title, author, and summary is visible directly before (on mobile screens) or next to (on tablet screens and larger) the information about the next meeting, in the 'Up Next' section. 
+        2. The title of the book links to its GoodReads page, so I can find more information about the book before I read it.
+
     3. As a Returning Visitor, I want to register my attendance/RSVP to the next meeting.
+
+        1. There is an RSVP form linked in the navigation bar, and in the section with the next meeting details.
+        2. The form is clearly labelled so I know what information to input, and the submit button changes colour on hover so I know when I am submitting my details. 
 
 -   #### Frequent User Goals
 
     1. As a Frequent User, I want to see new photos and updated testimonials from recent book club meetings.
 
+        1. The gallery and testimonials are updated with new content frequently, after each meeting. I can access the page in the days after a book club meeting, to see testimonials from people who attended the last meeting, along with photos. 
+
     2. As a Frequent User, I want to see what previous book selections were that I may have missed, and purchase previous and upcoming books.
+
+        1. The 'Books' page shows the three previous books that club members have read. The book titles link to each book's GoodReads page, so you can find more information about each book. This page is updated after each meeting. 
 
 ### Further Testing
 
@@ -223,4 +239,4 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback!
+-   My mentor for some great feedback, especially around the UI elements of the site, and for pushing me to go beyond the basic requirements of the project. 
