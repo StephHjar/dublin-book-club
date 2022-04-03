@@ -47,11 +47,15 @@ This is the home page for the Dublin Book Club, a fiction book club for adults o
 ## Features
 
 -   Responsive on all device sizes:
-    - Mobile: Home | Gallery | Books | RSVP
-    - Tablet: Home | Gallery | Books | RSVP
-    - Desktop: Home | Gallery | Books | RSVP
+    - Mobile: [Home](assets/readme/mobile-home.png) | [Gallery](assets/readme/mobile-gallery.png) | [Books](assets/readme/mobile-books.png) | [RSVP](assets/readme/mobile-home.png)
+    - Tablet: [Home](assets/readme/tablet-home.png) | [Gallery](assets/readme/tablet-gallery.png) | [Books](assets/readme/tablet-books.png) | [RSVP](assets/readme/tablet-home.png)
+    - Desktop: [Home](assets/readme/tablet-home.png) | [Gallery](assets/readme/tablet-gallery.png) | [Books](assets/readme/tablet-books.png) | [RSVP](assets/readme/tablet-home.png)
 
--   Interactive elements
+-   Interactive elements:
+    - Logo: The logo is being used in the place of a header across all pages. Clicking the logo will bring the user to the home page. 
+    ![Dublin Book Club logo - DBC on a turquoise background](assets/readme/logo.png)
+    - Nav bar: The page the user is currently on is underlined, so navigation is clear, and links turn orange when hovered over, to make it clear these are interactive links.
+    ![screenshot of nav bar showing links to Home, Gallery, Books, and RSVP pages](assets/readme/navbar.png)
 
 ## Technologies Used
 
@@ -63,9 +67,9 @@ This is the home page for the Dublin Book Club, a fiction book club for adults o
 ### Frameworks, Libraries & Programs Used
 
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Josefin Sans' and 'Montserrat' fonts into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used on all pages throughout the website to add social media icons for aesthetic and UX purposes.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
