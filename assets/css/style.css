@@ -383,11 +383,12 @@ h1 {
 /* registration page + form */
 
 .form-section {
+    background-color: rgba(0, 0, 0, 0.25);
     padding: 10% 0;
     margin: auto;
     height: 100%;
     text-align: center;
-    width: 85%;
+    width: 50%;
 }
 
 .form-heading p {
@@ -396,7 +397,6 @@ h1 {
 
 .rsvp-form {
     margin: auto;
-    max-width: 750px;
 }
 
 .rsvp-form label {
@@ -404,10 +404,6 @@ h1 {
     font-weight: bold;
     text-decoration: solid underline 1.5px #E29578;
     text-transform: uppercase;
-}
-
-.rsvp-form input {
-    max-width: 750px;
 }
 
 .submit-button {
