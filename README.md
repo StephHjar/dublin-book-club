@@ -225,30 +225,31 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
--   Footer with social media links and the gallery page used code from Code Institute's Love Running walkthrough
 -   [Code Institute Sample Readme](https://github.com/Code-Institute-Solutions/SampleREADME) for the README 
--   [Goodreads](https://www.goodreads.com/) for book covers and synopses
+
+### Code
+
+-   Footer with social media links and the gallery page used code from Code Institute's Love Running walkthrough
+-   [GitConnected](https://levelup.gitconnected.com/how-to-make-a-fully-accessible-css-only-carousel-40e8bd62032b): This page on GitConnected was used to build a carousel with HTML & CSS. I modified it to fit images and text, and to display differently on divverent screen sizes.
+-   [WebFX](https://www.webfx.com/blog/web-design/circular-images-css/): This page on WebFX was used to make rectangular images circular in the testimonial section. I edited to suit the needs of my carousel by adjusting the heights & widths of images.
+
+### Content
+
+-  [Goodreads](https://www.goodreads.com/) for book synopses
+-  [BestSlogans.com](https://www.bestslogans.com/list-ideas-taglines/reading-club-slogans/) for the book club slogan (Reading will take you places!)
+-   All other content written and created by the developer.
+
+### Media
+
+-   [Goodreads](https://www.goodreads.com/) for book covers
 -   [TinyPNG](https://tinypng.com/) to compress image sizes
--   [BestSlogans.com](https://www.bestslogans.com/list-ideas-taglines/reading-club-slogans/) for the book club slogan
 -   [EightShapes Contrast Grid](https://contrast-grid.eightshapes.com/) was used to ensure color contrast for accessibility.
 -   [Coolors.co:](https://coolors.co/) was used to generate a color palette.
 -   [Unsplash](https://unsplash.com/) was used for images (hero image, some gallery images, and the image on the RSVP   page).
 -   [Pexels](https://www.pexels.com/) was used for some gallery images.
 -   [Favicon](https://favicon.io/) was used to generate a logo and favicon.
--   [GitConnected](https://levelup.gitconnected.com/how-to-make-a-fully-accessible-css-only-carousel-40e8bd62032b): This page on GitConnected was used to build a carousel with HTML & CSS.
--   [WebFX](https://www.webfx.com/blog/web-design/circular-images-css/): This page on WebFX was used to make rectangular images circular in the testimonial section.
 -   [StackOverflow](https://stackoverflow.com/) was used as a resource and for help while debugging.
 -   [CloudConvert](https://cloudconvert.com/) was used to convert images to WEBP format.
-
-### Code
-
-### Content
-
--   All content was written by the developer except as credited above.
-
-### Media
-
--   Favicon was used to create the favicon and logo, and other media images were found on Unsplash and Pexels as credited above.
 
 ### Acknowledgements
 
