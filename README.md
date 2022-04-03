@@ -2,7 +2,7 @@
 
 [View the live project here.](https://stephhjar.github.io/dublin-book-club/)
 
-This is the home page for the Dublin Book Club, a fiction book club for adults of all ages based in Dublin. The goal of the website is to provide the user with information about the club, including when it was founded, previous books, a photo gallery, testimonials from current members, and form to register your attendance at the next meeting. It was designed to be responsive and accessible across all devices.
+This is the home page for the Dublin Book Club, a fiction book club for adults of all ages based in Dublin. The goal of the website is to provide the user with information about the club, including when it was founded, previous books, a photo gallery, testimonials from current members, and a form to register your attendance at the next meeting. It was designed to be responsive and accessible across all devices.
 
 ![image showing the home page across 4 different screen sizes](assets/readme/responsive.webp)
 
@@ -27,6 +27,7 @@ This is the home page for the Dublin Book Club, a fiction book club for adults o
         2. As a Frequent User, I want to see what previous book selections were that I may have missed, and purchase previous and upcoming books.
 
 -   ### Design
+
     -   #### Colour Scheme
         -   The main colours used are black, light blue, turquoise, and orange. I wanted to choose colours that are not
         typically considered 'gendered'. Book clubs can be associated as more targeted towards women, and I wanted to create a site that made it clear the group is open to anyone of all ages and genders. 
@@ -143,16 +144,18 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Further Testing
 
 -   The website was manually tested on Google Chrome (regular and incognito mode) and Safari browsers. 
--   The website was viewed on a variety of devices such as desktop, laptop, iPad Air, and iPhone XR. 
--   The website was also viewed in Chrome Developer tools on every pre-set device available, and by manually dragging the screen while using the 'Responsive' setting. 
+-   The website was manually viewed on a variety of devices: desktop, MacBook Air, iPad Air, and iPhone XR. 
+-   The website was also viewed in Chrome Developer tools on every pre-set device available, and by manually dragging the screen through various while using the 'Responsive' setting to determine breakpoints. 
 -   All links were clicked to ensure nothing was broken, and that all external links open in a new tab.
 -   Friends and family members were asked to view the website on their own devices to ensure no errors.
--   Used Lighthouse to test performance and accessibility. The first test for the Mobile version of the site led to a performance score of 79, so I set specific heights & widths for each image. This led to images being warped and stretched because they are already being resized using CSS, so I removed the explicit measurements. Scores are much higher on desktop. Here are the final scores:
+-   Used Lighthouse to test performance and accessibility. The first test for the Mobile version of the site led to a performance score of 79, so I set specific heights & widths for each image according to the tool's suggestion. This led to images being warped and stretched because they are already being resized using CSS, so I removed the explicit measurements. Scores are much higher on desktop. Here are the final scores:
     - Mobile: [Home](assets/readme/lighthouse-mobile-home.png) | [Gallery](assets/readme/lighthouse-mobile-gallery.png) | [Books](assets/readme/lighthouse-mobile-books.png) | [RSVP](assets/readme/lighthouse-mobile-rsvp.png)
     - Desktop: [Home](assets/readme/lighthouse-desktop-home.png) | [Gallery](assets/readme/lighthouse-desktop-gallery.png) | [Books](assets/readme/lighthouse-desktop-books.png) | [RSVP](assets/readme/lighthouse-desktop-rsvp.png)
--   Used [WAVE web accessibility evaluation tool](https://wave.webaim.org/) to test accessibilty. Passed with no errors across all pages after some adjustments. Initial results: 
+-   Used [WAVE web accessibility evaluation tool](https://wave.webaim.org/) to test accessibilty. Passed with no errors across all pages. Initial results: 
     -   1 alert across all pages, which was a redundant link (since both the logo and the 'Home' button in the nav link to the home page). I left this in place as it is a navigation feature of the site: it is a convention that clicking the logo will take you to the site's home page.
-    -   5 alerts on gallery page, 3 x due to long alt text so I adjusted the alt text. 1 x due to the fact that there was no h1 element. I nested the DBC logo in an h1 element, and made the alt text "Dublin Book Club" so this is clearer for people using screen readers. 1 x due to the above.
+    -   4 additional alerts on gallery page:
+        -   3 x due to long alt text so I adjusted the alt text to be more concise.
+        -   1 x due to the fact that there was no h1 element. I nested the DBC logo in an h1 element, and made the alt text "Dublin Book Club" so this is clearer for people using screen readers. 
     -   Final results: [Home](assets/readme/wave-home.png) | [Gallery](assets/readme/wave-gallery.png) | [Books](assets/readme/wave-books.png) | [RSVP](assets/readme/wave-rsvp.png)
 
 ### Known Bugs (Resolved)
@@ -225,16 +228,14 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
--   [Code Institute Sample Readme](https://github.com/Code-Institute-Solutions/SampleREADME) for the README 
-
 ### Code
 
--   Footer with social media links and the gallery page used code from Code Institute's Love Running walkthrough
+-   Footer with social media links and the gallery page used code from Code Institute's [Love Running walkthrough](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode)
 -   [GitConnected](https://levelup.gitconnected.com/how-to-make-a-fully-accessible-css-only-carousel-40e8bd62032b): This page on GitConnected was used to build a carousel with HTML & CSS. I modified it to fit images and text, and to display differently on divverent screen sizes.
 -   [WebFX](https://www.webfx.com/blog/web-design/circular-images-css/): This page on WebFX was used to make rectangular images circular in the testimonial section. I edited to suit the needs of my carousel by adjusting the heights & widths of images.
 
 ### Content
-
+-  [Code Institute Sample Readme](https://github.com/Code-Institute-Solutions/SampleREADME) for the README layout and structure
 -  [Goodreads](https://www.goodreads.com/) for book synopses
 -  [BestSlogans.com](https://www.bestslogans.com/list-ideas-taglines/reading-club-slogans/) for the book club slogan (Reading will take you places!)
 -   All other content written and created by the developer.
