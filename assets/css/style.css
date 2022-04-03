@@ -383,7 +383,6 @@ h1 {
 /* rsvp page + form */
 
 .form-background {
-    box-shadow: none;
     height: 400px;
     width: 100%;
     background: url(../images/form-background.webp) no-repeat top left;
@@ -392,6 +391,8 @@ h1 {
 
 .form-section {
     background-color: rgba(0, 0, 0, 0.5);
+    border: black 1px solid;
+    box-shadow: 6px 6px 1px;
     height: fit-content;
     top: 5rem;
     padding: 5px;
@@ -609,6 +610,27 @@ h1 {
         line-height: 0;
         text-align: center;
     }
+
+    .form-background {
+        height: 400px;
+        margin: 1.5rem auto;
+        width: 100%;
+        background: url(../images/form-background.webp) no-repeat top center;
+        background-size: 800px;
+    }
+
+    .form-section {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: fit-content;
+        top: 5rem;
+        padding: 5px;
+        margin: auto;
+        max-width: 750px;
+        position: relative;
+        text-align: center;
+        width: 50%;
+    }
+
 }
 
 /* for desktop screens 1024 px and larger */
@@ -634,6 +656,7 @@ h1 {
 }
 
 /* for very small screens 305px and smaller */
+
 @media screen and (max-width: 305px) {
 
     .menu ul {
