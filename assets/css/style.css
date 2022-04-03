@@ -33,13 +33,13 @@ h2 {
     text-transform: uppercase;
 }
 
+img {
+    box-shadow: 6px 6px 1px;
+}
+
 .upper {
     text-decoration: underline;
     text-transform: uppercase;
-}
-
-img {
-    box-shadow: 6px 6px 1px;
 }
 
 /* logo and header */
@@ -104,6 +104,13 @@ img {
 
 /* hero image */
 
+h1 {
+    color: #83C5BE;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
 .hero-image {
     box-shadow: none;
     height: 320px;
@@ -122,13 +129,6 @@ img {
     position: relative;
     text-align: right;
     width: fit-content;
-}
-
-h1 {
-    color: #83C5BE;
-    font-family: 'Josefin Sans', sans-serif;
-    letter-spacing: 0.7px;
-    text-transform: uppercase;
 }
 
 .hero-image-text p {
@@ -330,10 +330,18 @@ h1 {
 
 .previous-books a {
     color: #000;
+    margin: 5px auto 0;
+    max-width: 300px;
 }
 
 .previous-books a:hover {
     text-decoration: none;
+}
+
+.previous-books p {
+    margin: 5px auto 0;
+    max-width: 300px;
+    font-style: italic;
 }
 
 .prev-book-left {
