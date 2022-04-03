@@ -519,7 +519,8 @@ a resource on webfx (linked in readme) */
 
     .about-us,
     .up-next,
-    .testimonials {
+    .testimonials,
+    .form-heading {
         margin-left: 7.5%;
         width: 85%;
     }
