@@ -28,11 +28,13 @@ This is the home page for the Dublin Book Club, a fiction book club for adults o
 
 -   ### Design
     -   #### Colour Scheme
-        -   
+        -   The main colours used are black, light blue, turquoise, and orange. I wanted to choose colours that are not
+        typically considered 'gendered'. Book clubs can be associated as more targeted towards women, and I wanted to create
+        a site that made it clear the group is open to anyone of all ages and genders. 
     -   #### Typography
-        -   
+        -   Josefin Sans was used for headers and Montserrat for the main text of the webpage. Both fonts look clean and professional, are accessible and easy to read. 
     -   #### Imagery
-        -   
+        -   All images (hero image, gallery images, and the image on the RSVP page) are related to either books and reading, or (in the case of the gallery) being out at a cafe for the book club meetings. The colours don't clash with the colour scheme of the page, and all images are clear, bright and appealing.
 
 *   ### Wireframes
 
@@ -44,7 +46,10 @@ This is the home page for the Dublin Book Club, a fiction book club for adults o
 
 ## Features
 
--   Responsive on all device sizes
+-   Responsive on all device sizes:
+    - Mobile: Home | Gallery | Books | RSVP
+    - Tablet: Home | Gallery | Books | RSVP
+    - Desktop: Home | Gallery | Books | RSVP
 
 -   Interactive elements
 
