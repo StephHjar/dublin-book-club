@@ -150,6 +150,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Used Lighthouse to test performance and accessibility. The first test for the Mobile version of the site led to a performance score of 79, so I set specific heights & widths for each image. This led to images being warped and stretched because they are already being resized using CSS, so I removed the explicit measurements. Scores are much higher on desktop. Here are the final scores:
     - Mobile: [Home](assets/readme/lighthouse-mobile-home.png) | [Gallery](assets/readme/lighthouse-mobile-gallery.png) | [Books](assets/readme/lighthouse-mobile-books.png) | [RSVP](assets/readme/lighthouse-mobile-rsvp.png)
     - Desktop: [Home](assets/readme/lighthouse-desktop-home.png) | [Gallery](assets/readme/lighthouse-desktop-gallery.png) | [Books](assets/readme/lighthouse-desktop-books.png) | [RSVP](assets/readme/lighthouse-desktop-rsvp.png)
+-   Used [WAVE web accessibility evaluation tool](https://wave.webaim.org/) to test accessibilty. Passed with no errors across all pages. 
+    -   1 alert on home page, which was a redundant link (since both the logo and the 'Home' button in the nav link to the home page). 
+    -   5 alerts on gallery page, 3 x due to long alt text so I adjusted the alt text. Results:
+     - Mobile: [Home](assets/readme/lighthouse-mobile-home.png) | [Gallery](assets/readme/lighthouse-mobile-gallery.png) | [Books](assets/readme/lighthouse-mobile-books.png) | [RSVP](assets/readme/lighthouse-mobile-rsvp.png)
+    - Desktop: [Home](assets/readme/lighthouse-desktop-home.png) | [Gallery](assets/readme/lighthouse-desktop-gallery.png) | [Books](assets/readme/lighthouse-desktop-books.png) | [RSVP](assets/readme/lighthouse-desktop-rsvp.png)
 
 ### Known Bugs (Resolved)
 
