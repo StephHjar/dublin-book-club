@@ -223,6 +223,7 @@ h1 {
 }
 
 /* carousel with testimonials */
+/* original code for carousel modified from a resource on gitconnected (linked in readme) */
 
 .carousel {
     border: 1px solid #000;
@@ -261,6 +262,8 @@ h1 {
     width: 100%;
 }
 
+/* original code to make images circular within testimonials was modified from 
+a resource on webfx (linked in readme) */
 .testimonial-image-1,
 .testimonial-image-3 {
     display: inline-block;
@@ -365,6 +368,7 @@ h1 {
 }
 
 /* gallery */
+/* original code modified from Code Insitute's Love Running walkthrough */
 
 .gallery {
     clear: both;
@@ -444,6 +448,7 @@ h1 {
 }
 
 /* footer - social media links */
+/* original code modified from Code Insitute's Love Running walkthrough */
 
 .social-networks {
     margin: 1.5rem;

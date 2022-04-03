@@ -2,7 +2,9 @@
 
 [View the live project here.](https://stephhjar.github.io/dublin-book-club/)
 
-This is the home page for the Dublin Book Club, a fiction book club for adults of all ages based in Dublin. The goal of the website is to provide the user with information about the club, including when it was founded, previous books, a photo gallery, testimonials from current members, and form to register your attendance at the next meeting. 
+This is the home page for the Dublin Book Club, a fiction book club for adults of all ages based in Dublin. The goal of the website is to provide the user with information about the club, including when it was founded, previous books, a photo gallery, testimonials from current members, and form to register your attendance at the next meeting. It was designed to be responsive and accessible across all devices.
+
+![image showing the home page across 4 different screen sizes](assets/readme/responsive.webp)
 
 ## User Experience (UX)
 
