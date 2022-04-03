@@ -142,6 +142,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
+-   The website was manually tested on Google Chrome (regular and incognito mode) and Safari browsers. 
+-   The website was viewed on a variety of devices such as desktop, laptop, iPad Air, and iPhone XR. 
+-   The website was also viewed in Chrome Developer tools on every pre-set device available, and by manually dragging the screen while using the 'Responsive' setting. 
+-   All links were clicked to ensure nothing was broken, and that all external links open in a new tab.
+-   Friends and family members were asked to view the website on their own devices to ensure no errors.
+-   Used Lighthouse to test performance and accessibility. The first test for the Mobile version of the site led to a performance score of 79, so I set specific heights & widths for each image. This led to images being warped and stretched because they are already being resized using CSS, so I removed the explicit measurements. Scores are much higher on desktop. Here are the final scores:
+    - Mobile: [Home](assets/readme/lighthouse-mobile-home.png) | [Gallery](assets/readme/lighthouse-mobile-gallery.png) | [Books](assets/readme/lighthouse-mobile-books.png) | [RSVP](assets/readme/lighthouse-mobile-rsvp.png)
+    - Desktop: [Home](assets/readme/lighthouse-desktop-home.png) | [Gallery](assets/readme/lighthouse-desktop-gallery.png) | [Books](assets/readme/lighthouse-desktop-books.png) | [RSVP](assets/readme/lighthouse-desktop-rsvp.png)
+
 ### Known Bugs (Resolved)
 
 - 'font-weight: bold' was not working in the "next meeting section". Determined this is because the font chosen from Google Fonts did not have a bold weight. Imported a bold version of the font, this resolved the bug.
