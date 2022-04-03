@@ -226,7 +226,7 @@ h1 {
 }
 
 /* carousel with testimonials */
-/* original code for carousel modified from a resource on gitconnected (linked in readme) */
+/* original code for carousel modified from a resource on gitconnected (linked in readme file) */
 
 .carousel {
     border: 1px solid #000;
@@ -266,7 +266,7 @@ h1 {
 }
 
 /* original code to make images circular within testimonials was modified from 
-a resource on webfx (linked in readme) */
+a resource on webfx (linked in readme file) */
 .testimonial-image-1,
 .testimonial-image-3 {
     display: inline-block;
@@ -371,7 +371,7 @@ a resource on webfx (linked in readme) */
 }
 
 /* gallery */
-/* original code modified from Code Insitute's Love Running walkthrough */
+/* original code modified from code institute's love running walkthrough (linked in readme file)*/
 
 .gallery {
     clear: both;
@@ -451,7 +451,7 @@ a resource on webfx (linked in readme) */
 }
 
 /* footer - social media links */
-/* original code modified from Code Insitute's Love Running walkthrough */
+/* original code modified from code institute's love running walkthrough (linked in readme file) */
 
 .social-networks {
     margin: 1.5rem;
@@ -665,7 +665,7 @@ a resource on webfx (linked in readme) */
     }
 }
 
-/* for very small screens 305px and smaller */
+/* for very small mobile screens 305px and smaller */
 
 @media screen and (max-width: 305px) {
 
